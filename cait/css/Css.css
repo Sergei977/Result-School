@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width:650px) {
+  .containetr {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+
+  }
+}
+
+.navbar {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid rgb(96, 164, 92);
+  background: blanchedalmond;
+}
+
+.containetr {
+  position: relative;
+  top: 25px;
+  margin: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+body {
+  margin: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  background-color: rgb(255, 254, 231);
+}
+
+.foto {
+  position: relative;
+  bottom: 16px;
+  left: 250px;
+  height: 100px;
+  background-color: rgb(190, 251, 253);
+  border: 2px solid rgb(137, 255, 163);
+  float: left;
+  width: 100px;
+  color: rgb(119, 6, 766);
+  border-radius: 590px;
+  box-shadow: 3px 3px 3px #dcdcdc
+}
+
+h1 {
+  position: relative;
+  top: 25px;
+  margin: 4px;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 45px;
+  background-color: rgba(170, 252, 191, 0.253);
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(31, 30, 25);
+
+}
+
+button {
+  box-sizing: border-box;
+  margin: 10px 1px 10px 15px;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  height: 26px;
+  background: #8461e6;
+  color: rgb(255, 0, 0);
+  line-height: 6px;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  transition: box-shadow 0.2s;
+  min-width: 100px;
+  font-family: inherit;
+  border: 1px;
+  text-align: center;
+
+}
+
+.button {
+  display: inline-block;
+}
+
+.button:focus-visible {
+
+  border: 10px solid #03ff18;
+  outline: none;
+}
+
+.button:active {
+
+  color: #014464;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px 4px #dc2121;
+}
+
+button:hover {
+
+  opacity: 0.8;
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgb(228, 20, 5), 0 3px 6px rgb(183, 0, 255);
+  background: #00a156;
+}
+
+.card-a {
+  margin-bottom: 20px;
+  font-size: 14px;
+  height: 100%;
+  padding-bottom: 35px;
+  background: #dcffdf
+}
+
+h2,
+p,
+h3 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.card-cho1 {
+  margin-bottom: 10px;
+  padding-bottom: 25px;
+
+
+  background-color: #ccffd1;
+
+}
+
+.card-b {
+  margin-bottom: 10px;
+  padding-bottom: 25px;
+  background: peachpuff;
+}
+
+.card-c {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+
+  width: 100%;
+  background-color: #d7f6fa;
+}
+
+/*для сообщения*/
+textarea {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  background-color: rgb(255, 246, 217);
+}
+
+fieldset {
+  border-radius: 7px;
+}
+
+
+
+h5 {
+  text-align: center;
+  width: 430px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  background: rgb(252, 221, 195);
+
+}
+
+/*шкала прогресса*/
+.progress {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+
+}
+
+.progress1 {
+  width: 50%;
+  background-color: #ff0202;
+  border: solid #909491;
+  height: 8px;
+
+}
+
+.progress2 {
+
+  width: 30%;
+  border-radius: 1px;
+  background-color: #ce0101;
+  border: solid #909491;
+  height: 8px
+}
+
+.progress3 {
+  width: 0%;
+  border-radius: 2px;
+  background-color: #ff0000;
+  border: solid #909491;
+  height: 8px;
+}
+
+.html {
+  border-radius: 10px;
+  height: 100%;
+  background-color: rgb(240, 103, 40);
+  border: solid #ffee00;
+
+}
+
+.css {
+  border-radius: 10px;
+  height: 100%;
+  background-color: rgb(0, 47, 255);
+  border: solid #ff8800d0;
+
+}
+
+
+.script {
+  border-radius: 10px;
+  height: 100%;
+  background-color: rgb(243, 239, 0);
+  border: solid #0011ffd0;
+
+}
+
+
+a {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+a:hover {
+  color: chocolate;
+
+}
+
+a:active {
+  color: blue;
+}
+
+table {
+
+  width: 100%;
+}
+
+.table td:nth-child(2) {
+  background: #c0ffe2;
+  color: #3a4201;
+}
+
+
+.tibel ol {
+  background: #a7aca7;
+}
+
+.card-z {
+  background: #f9f4b7;
+  font-size: 1.3em;
+  font-weight: 600
+}
+
+/*img {
+  height: 100px;
+  background-color: rgb(10, 168, 129);
+  position: relative;
+  margin: 5px;
+  border: 2px solid rgb(15, 202, 56);
+  float: left;
+  width: 100px;
+  color: rgb(119, 6, 766);
+  border-radius: 590px;
+}*/
